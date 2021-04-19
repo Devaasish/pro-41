@@ -1,2 +1,2 @@
-# pro-41
+# FRUIT CATCHER - 2
 Project 41
