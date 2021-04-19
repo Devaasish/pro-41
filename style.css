@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+html, body {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Material Icons', sans-serif;
+  font-family: 'Jost', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+canvas {
+  display: block;
+  border: 5px solid maroon;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 100px;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Material Icons', sans-serif;
+  font-family: 'Jost', sans-serif;
+  outline: none;
+  cursor: pointer;
+  font-size: large;
+  background-color: lightpink;
+  color: blueviolet;
+  letter-spacing: 0.5px;
+  transition: all 0.4s ease-in-out;
+  padding: 10px 80px 10px 80px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: blueviolet;
+  color: lightpink;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Material Icons', sans-serif;
+  font-family: 'Jost', sans-serif;
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Material Icons', sans-serif;
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  width: 60%;
+  font-size: 20px;
+  border: 3px solid;
+  padding: 15px 0px 15px 0px;
+  transition: all 0.5s;
+  outline: none;
+}
+
+input:hover {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Material Icons', sans-serif;
+  font-family: 'Jost', sans-serif;
+  padding: 10px 0px 10px 0px;
+  border: 3px solid blue;
+  outline: none;
+}
